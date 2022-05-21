@@ -1,15 +1,15 @@
 <script lang="ts">
-  let hide = false
+  let hide = false;
 
   function hideToggle(e: Event) {
-    hide = !hide
-    const el = e.target as HTMLInputElement
-    const parentEl = el.parentNode as HTMLInputElement
+    hide = !hide;
+    const el = e.target as HTMLInputElement;
+    const parentEl = el.parentNode as HTMLInputElement;
 
     if (hide) {
-      parentEl.classList.add("web-only", "text-gray-300")
+      parentEl.classList.add("web-only", "text-gray-300");
     } else {
-      parentEl.classList.remove("web-only", "text-gray-300")
+      parentEl.classList.remove("web-only", "text-gray-300");
     }
   }
 </script>
@@ -18,7 +18,7 @@
   >{hide ? "[Show]" : "[Hide]"}</button
 >
 
-<style>
+<style lang="postcss">
   .hide-toggle {
     @apply text-gray-700 underline;
   }

@@ -12,4 +12,4 @@ module.exports = {
   },
   moduleFileExtensions: ["js", "ts", "svelte"],
   setupFilesAfterEnv: ["@testing-library/jest-dom/extend-expect"],
-}
+};

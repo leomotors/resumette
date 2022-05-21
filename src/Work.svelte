@@ -1,11 +1,11 @@
 <script lang="ts">
-  import HideToggle from "./HideToggle.svelte"
+  import HideToggle from "./HideToggle.svelte";
 
-  export let position: string = ""
-  export let company: string = ""
-  export let url: string = ""
-  export let years: string[] = []
-  export let details: string[] = []
+  export let position: string = "";
+  export let company: string = "";
+  export let url: string = "";
+  export let years: string[] = [];
+  export let details: string[] = [];
 </script>
 
 <div class="work-experience">
@@ -27,7 +27,7 @@
   </ul>
 </div>
 
-<style>
+<style lang="postcss">
   .work-experience {
     @apply my-4;
   }
