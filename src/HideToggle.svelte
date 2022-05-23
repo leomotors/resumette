@@ -14,9 +14,9 @@
   }
 </script>
 
-<button class="hide-toggle web-only" on:click={hideToggle}
-  >{hide ? "[Show]" : "[Hide]"}</button
->
+<button class="hide-toggle web-only" on:click={hideToggle}>
+  {hide ? "[Show]" : "[Hide]"}
+</button>
 
 <style lang="postcss">
   .hide-toggle {

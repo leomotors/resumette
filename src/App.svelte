@@ -1,7 +1,6 @@
 <script lang="ts">
-  import Tailwind from "./Tailwind.svelte";
-  import Intro from "./Intro.svelte";
-  import Work from "./Work.svelte";
+  import Intro from "./components/Intro.svelte";
+  import Work from "./components/Work.svelte";
   import HideToggle from "./HideToggle.svelte";
   import {
     educations,
@@ -9,6 +8,7 @@
     interests,
     introData,
     projects,
+    awards,
     sourceLink,
     technologies,
     workExperiences,
@@ -20,8 +20,6 @@
     editMode = !editMode;
   }
 </script>
-
-<Tailwind />
 
 <header
   class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen"
@@ -88,6 +86,19 @@
 
   <section>
     <HideToggle />
+    <h2 class="text-2xl print:text-4xl uppercase text-left">Awards</h2>
+    <hr />
+
+    {#each awards as award}
+      <li>
+        <HideToggle />
+        <strong>{award.name}</strong>, {award.details}
+      </li>
+    {/each}
+  </section>
+
+  <section>
+    <HideToggle />
     <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
     <hr />
 
@@ -109,9 +120,9 @@
           <HideToggle />
           <strong>{project.name}</strong>
           - {project.details}
-          <a href="https://{project.url}" target="_blank" rel="noreferrer"
-            ><strong>{project.url}</strong></a
-          >
+          <a href="https://{project.url}" target="_blank" rel="noreferrer">
+            <strong>{project.url}</strong>
+          </a>
         </li>
       {/each}
     </ul>

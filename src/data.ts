@@ -37,7 +37,7 @@ export const technologies = [
   {
     section: "Other:",
     details:
-      "Vercel, Github Actions, Firebase, DigitalOcean, Netlify, Microsoft Azure",
+      "Vercel, Netlify, Github Actions, Firebase, DigitalOcean (Droplet), Microsoft Azure (Functions)",
   },
 ];
 
@@ -54,11 +54,14 @@ export const educations = [
 
 export const workExperiences = [];
 
+export const awards = [];
+
 export const projects = [
   {
-    name: "Food Busters Mobile App Prototype",
-    details: "Building sized app to be prototype for our idea with Flutter",
-    url: "github.com/Food-Busters/food_busters",
+    name: "Food Busters",
+    details:
+      "- Building sized app to be prototype for our idea with Flutter. - Build websites to list Food Busters' Prototype. - Website and API for running Image Classification Model",
+    url: "github.com/Food-Busters",
   },
   {
     name: "Crack 'n' Code Pre TOI18 Programming Contest",
@@ -73,7 +76,7 @@ export const projects = [
   },
   {
     name: "Salim Bot",
-    details: "A 'salim' Discord Bot",
+    details: "A 'Salim' Discord Bot",
     url: "github.com/Leomotors/Salim-Bot",
   },
   {
@@ -85,7 +88,7 @@ export const projects = [
 ];
 
 export const interests = [
-  "Areas : Coding, Anime, r/battlestations, Windows Insider",
+  "Areas : RGB, Anime, r/battlestations, Windows Insider",
   "Typing : 80-100 WPM (English) 40-50 WPM (Thai)",
   "Games : Any game that can be played with friends happily",
   "Music : J-POP, Anime, Meme",

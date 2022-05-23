@@ -1,12 +1,12 @@
 <script lang="ts">
-  export let name: string = "Foo";
-  export let nickname: string = "";
-  export let phone: string = "";
-  export let email: string = "";
-  export let github: string = "";
-  export let linkedin: string = "";
-  export let location: string = "";
-  export let website: string = "";
+  export let name = "Foo";
+  export let nickname = "";
+  export let phone = "";
+  export let email = "";
+  export let github = "";
+  export let linkedin = "";
+  export let location = "";
+  export let website = "";
 </script>
 
 <div
