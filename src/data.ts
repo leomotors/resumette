@@ -1,4 +1,4 @@
-export const fullVersionLink = "";
+export const fullVersionLink = "https://resume.leomotors.vercel.app";
 export const sourceLink = "https://github.com/Leomotors/resumette";
 export const ogImageUrl =
   "https://og-image.vercel.app/Resumette.png?theme=light&md=1&fontSize=200px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fvercel-triangle-black.svg";
@@ -48,13 +48,33 @@ export const educations = [
   },
   {
     head: "Chulalongkorn University",
-    details: "B.Eng. Computer Engineering, 2022-[2026?]",
+    details: "B.Eng. Computer Engineering, 2022-[2026]",
   },
 ];
 
 export const workExperiences = [];
 
-export const awards = [];
+export const awards = [
+  {
+    name: "1st Prize in Samsung Innovation Campus: IDEATHON (2019)",
+    details:
+      "10-day camp learning about programming. IDEATHON is held at the end of the camp to let students apply their knowledge",
+  },
+  {
+    name: "Silver Medal Award & Determination Award in Thailand Olympiad in Informatics (TOI17)",
+    details: "",
+  },
+  {
+    name: "IPST Camp 2.2",
+    details:
+      "IOI Training Camp to find representative of Thailand, made into the final selection round (9 people)",
+  },
+  {
+    name: "2nd Place in NITAD Hackathon",
+    details:
+      "Hackathon focuses on solving garbage problems in low income community.",
+  },
+];
 
 export const projects = [
   {

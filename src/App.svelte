@@ -58,7 +58,8 @@
       Technologies and Languages
     </h2>
     <hr />
-    <ul class="text-left list-disc pl-8">
+
+    <ul>
       {#each technologies as tech}
         <li>
           <HideToggle />
@@ -74,7 +75,7 @@
     <h2 class="text-2xl print:text-4xl uppercase text-left">Education</h2>
     <hr />
 
-    <ul class="text-left list-disc pl-8">
+    <ul>
       {#each educations as edu}
         <li>
           <HideToggle />
@@ -86,15 +87,19 @@
 
   <section>
     <HideToggle />
-    <h2 class="text-2xl print:text-4xl uppercase text-left">Awards</h2>
+    <h2 class="text-2xl print:text-4xl uppercase text-left">
+      Awards & Activities
+    </h2>
     <hr />
 
-    {#each awards as award}
-      <li>
-        <HideToggle />
-        <strong>{award.name}</strong>, {award.details}
-      </li>
-    {/each}
+    <ul>
+      {#each awards as award}
+        <li>
+          <HideToggle />
+          <strong>{award.name}</strong>, {award.details}
+        </li>
+      {/each}
+    </ul>
   </section>
 
   <section>
@@ -114,7 +119,7 @@
     <h2 class="text-2xl print:text-4xl uppercase text-left">Projects</h2>
     <hr />
 
-    <ul class="text-left list-disc pl-8">
+    <ul>
       {#each projects as project}
         <li>
           <HideToggle />
@@ -133,7 +138,7 @@
     <h2 class="text-2xl print:text-4xl uppercase text-left">Interests</h2>
     <hr />
 
-    <ul class="text-left list-disc pl-8">
+    <ul>
       {#each interests as interest}
         <li>
           <HideToggle />
@@ -144,9 +149,9 @@
   </section>
 
   <footer class="print-only">
-    (See <a href={fullVersionLink} target="_blank" rel="noopener"
-      >full version</a
-    >
+    (See <a href={fullVersionLink} target="_blank" rel="noopener">
+      full version
+    </a>
     or <a href={sourceLink} target="_blank" rel="noopener">source</a>)
   </footer>
 </main>
@@ -171,6 +176,10 @@
   section hr {
     @apply mt-0 mb-2;
     border-color: darkgrey;
+  }
+
+  section > ul {
+    @apply text-left list-disc pl-8;
   }
 
   :global(.print-only) {
