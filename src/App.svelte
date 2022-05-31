@@ -72,7 +72,7 @@
 
     <section>
       <HideToggle />
-      <p class="text-left pl-8 -mt-3">
+      <p class="text-left pl-8 -mt-2">
         ...And gratefully open to new technologies
       </p>
     </section>
