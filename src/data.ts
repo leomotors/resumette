@@ -73,6 +73,11 @@ export const awards = [
     details:
       "IOI Training Camp to find representative of Thailand, made into the final selection round of 9 people",
   },
+  {
+    name: "APIO 2022 Participant",
+    details:
+      "IOI-Format contest but for Asia-Pacific, featuring very hard algorithmic problems",
+  },
 ];
 
 export const projects = [
@@ -116,6 +121,12 @@ export const projects = [
     details:
       "Discord Bot for streaming music from YouTube, has search feature and utilize amazing cool embed, is part of harunon.js and leomotors/cminusminus",
     url: "github.com/Leomotors/music-bot",
+  },
+  {
+    name: "Terminal Video Player",
+    details:
+      "As it name suggests, play a video with ASCII Characters in Terminal, it also supports color!",
+    url: "github.com/Leomotors/Terminal-Video-Player",
   },
 ];
 
