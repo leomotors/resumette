@@ -22,25 +22,26 @@
 </script>
 
 <header
-  class="web-only text-center p-4 sm:p-6 bg-green-400 text-white w-screen"
+  class="web-only text-center p-4 sm:p-6 bg-green-500 text-white w-screen"
 >
   <h1 class="text-4xl">Resumette</h1>
   <h3>
-    <button on:click={toggleMode} class="underline text-lg"
-      >{editMode ? "[View]" : "[Edit]"}</button
-    >
-    <button on:click={() => window.print()} class="underline text-lg"
-      >[Print]</button
-    >
+    <button on:click={toggleMode} class="underline text-lg">
+      {editMode ? "[View]" : "[Edit]"}
+    </button>
+    <button on:click={() => window.print()} class="underline text-lg">
+      [Print]
+    </button>
   </h3>
   <p>
-    Printer-friendly standard résumé, any HTML tags with <code>web-only</code> CSS
-    class will be hidden on print.
+    Printer-friendly standard résumé template by
+    <a href="https://github.com/narze/resume">narze</a>, any HTML tags with
+    <code>web-only</code> CSS class will be hidden on print.
   </p>
   <p>
-    You can toggle <button on:click={toggleMode} class="underline"
-      >[Edit Mode]</button
-    > to hide some sections before printing.
+    You can toggle
+    <button on:click={toggleMode} class="underline"> [Edit Mode] </button>
+    to hide some sections before printing.
   </p>
   (<a href={sourceLink} target="_blank" rel="noopener">Source</a>)
 </header>
@@ -68,6 +69,13 @@
         </li>
       {/each}
     </ul>
+
+    <section>
+      <HideToggle />
+      <p class="text-left pl-8 -mt-3">
+        ...And gratefully open to new technologies
+      </p>
+    </section>
   </section>
 
   <section>
@@ -107,7 +115,10 @@
     <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
     <hr />
 
-    <p class="text-left">None but looking for one</p>
+    <p class="text-left">
+      None but looking for one, wish to use remaining time before universary
+      starts to gather experience. To be more precise, this June and July.
+    </p>
 
     {#each workExperiences as exp}
       <Work {...exp} />
