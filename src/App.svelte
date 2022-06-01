@@ -160,10 +160,8 @@
   </section>
 
   <footer class="print-only">
-    (See <a href={fullVersionLink} target="_blank" rel="noopener">
-      full version
-    </a>
-    or <a href={sourceLink} target="_blank" rel="noopener">source</a>)
+    (See in <a href={fullVersionLink} target="_blank" rel="noopener">web</a>
+    or view <a href={sourceLink} target="_blank" rel="noopener">source code</a>)
   </footer>
 </main>
 
