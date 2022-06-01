@@ -29,21 +29,23 @@
     class="flex-1 text-left sm:text-right print:text-right sm:py-4 w-48 text-sm sm:text-base"
   >
     <p>
-      <a href={`https://github.com/${github}`} target="_blank" rel="noreferrer"
-        >github.com/{github}</a
-      >
+      <a href="https://github.com/{github}" target="_blank" rel="noreferrer">
+        github.com/{github}
+      </a>
     </p>
     <p>
-      <a href={`https://${website}`} target="_blank" rel="noreferrer"
-        >{website}</a
-      >
+      <a href="https://{website}" target="_blank" rel="noreferrer">
+        {website}
+      </a>
     </p>
     <p>
       <a
-        href={`https://linkedin.com/in/${linkedin}`}
+        href="https://linkedin.com/in/{linkedin}"
         target="_blank"
-        rel="noreferrer">Linkedin</a
+        rel="noreferrer"
       >
+        Linkedin
+      </a>
     </p>
   </div>
 </div>

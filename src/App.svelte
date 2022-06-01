@@ -60,21 +60,21 @@
     </h2>
     <hr />
 
-    <ul>
+    <table class="text-left items-start table table-fixed">
       {#each technologies as tech}
-        <li>
+        <tr>
           <HideToggle />
-          <span class="w-36 inline-block">{tech.section}</span>
-          <span>{tech.details}</span>
-        </li>
+          <td class="align-top pl-4 w-[11rem] print:w-36">
+            <span class="w-36 print:w-32">- {tech.section}</span>
+          </td>
+          <td><span>{tech.details}</span></td>
+        </tr>
       {/each}
-    </ul>
+    </table>
 
     <section>
       <HideToggle />
-      <p class="text-left pl-8 -mt-2">
-        ...And gratefully open to new technologies
-      </p>
+      <p class="text-left pl-8 -mt-2">...And is open to other technologies</p>
     </section>
   </section>
 
@@ -116,8 +116,8 @@
     <hr />
 
     <p class="text-left">
-      None but looking for one, wish to use remaining time before universary
-      starts to gather experience. To be more precise, this June and July.
+      None but is looking for one. I wish to use remaining time before
+      universary starts to gather experience. (This June and July)
     </p>
 
     {#each workExperiences as exp}
