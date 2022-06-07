@@ -30,7 +30,7 @@ export const technologies = [
   {
     section: "Tools:",
     details:
-      "Git, GitHub, VSCode, Visual Studio, zsh, Powershell, ssh, Markdown, LaTeX",
+      "Git, GitHub, VSCode, Visual Studio, zsh, Powershell, ssh, Markdown, LaTeX, Raspberry Pi",
   },
   {
     section: "IaaS, PaaS:",
@@ -92,13 +92,13 @@ export const projects = [
   {
     name: "Food Busters",
     details:
-      "A team formed for AIS JUMP Thailand Hackathon. My role was lead developer. My work includes building sized app to be prototype for our idea with Flutter, Build websites to list their Prototype, Website and API for running Image Classification Model, Firebase CRUD App for storing and showing awesome quotes",
+      "A team formed for AIS JUMP Thailand Hackathon. My role was the lead developer. My work includes building a sized app to be the prototype for our idea with Flutter, Building websites to list their Prototype, Website, and API for running the Image Classification Model, and Firebase CRUD App for storing and showing awesome quotes.",
     url: "github.com/Food-Busters",
   },
   {
     name: "Crack 'n' Code Pre-TOI18 Programming Contest",
     details:
-      "Setting up server (DigitalOcean Droplet) and CMS (github.com/cms-dev/cms) to hold a programming contest with over 100 registered contestants. I also created the website for this contest:",
+      "Setting up servers (DigitalOcean Droplet) and CMS (github.com/cms-dev/cms) to hold a programming contest with over 150 registered contestants. I also created the website for this contest:",
     url: "cnc-pretoi18.netlify.app",
   },
   {
@@ -112,6 +112,12 @@ export const projects = [
     details:
       "Library on npm created to simplify discord bots making, is used in all of my discord bots",
     url: "github.com/Leomotors/cocoa-discord-utils",
+  },
+  {
+    name: "RTX 2090 TiFy",
+    details:
+      "An app (GUI) that generates videos inspired by RTX 2090 Ti meme. Used OpenCV and wxWidgets with C++",
+    url: "github.com/Leomotors/RTX-2090-TiFy",
   },
   {
     name: "Salim Bot",
