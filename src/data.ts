@@ -142,6 +142,12 @@ export const projects = [
       "As it name suggests, play a video with ASCII characters in Terminal, it also supports color!",
     url: "github.com/Leomotors/Terminal-Video-Player",
   },
+  {
+    name: "Golden Frame",
+    details:
+      'Golden Frame "กรอบทอง" Generator. CLI App written in Python with OpenCV. My first package on PyPI.',
+    url: "github.com/Leomotors/golden-frame",
+  },
 ];
 
 export const interests = [
