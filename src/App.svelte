@@ -115,11 +115,6 @@
     <h2 class="text-2xl print:text-4xl uppercase text-left">Work Experience</h2>
     <hr />
 
-    <p class="text-left">
-      None but is looking for one. I wish to use remaining time before
-      universary starts to gather experience. (This June and July)
-    </p>
-
     {#each workExperiences as exp}
       <Work {...exp} />
     {/each}

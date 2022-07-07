@@ -50,11 +50,21 @@ export const educations = [
   },
   {
     head: "Chulalongkorn University",
-    details: "B.Eng. Computer Engineering, 2022-",
+    details: "B.Eng. Computer Engineering, 2022-Present",
   },
 ];
 
-export const workExperiences = [];
+export const workExperiences = [
+  {
+    position: "Frontend Developer",
+    company: "Monkey Everyday",
+    url: "https://monkeyeveryday.com/",
+    years: ["June 2022", "Present"],
+    details: [
+      "Maintain monkeyeveryday.com and its CMS with Next.js, TailwindCSS and GraphQL",
+    ],
+  },
+];
 
 export const awards = [
   {
@@ -85,6 +95,11 @@ export const awards = [
   {
     name: "Code in the Wind Participant",
     details: "Game Show for TailwindCSS users in Thailand",
+  },
+  {
+    name: "6th Stupid Hackathon in Thailand, Most Aesthetically Pleasing Award winner",
+    details:
+      "A Hackathon where you do anything you want without caring about anything. The awards are decided by voting",
   },
 ];
 
@@ -125,15 +140,15 @@ export const projects = [
     url: "github.com/Leomotors/Salim-Bot",
   },
   {
-    name: "harunon.js",
+    name: "Waifu Bot",
     details:
       "Multipurpose Discord Bot running on my friends' server. Can stream music from YouTube and utilizes many discord.js features. (Embed, Interaction Components, etc.)",
-    url: "github.com/CarelessDev/harunon.js",
+    url: "github.com/Leomotors/waifu-bot",
   },
   {
     name: "@leomotors/music-bot",
     details:
-      "Discord Bot for streaming music from YouTube, has search feature and utilize amazing cool embed, is part of harunon.js and leomotors/cminusminus",
+      "Discord Bot for streaming music from YouTube, has search feature and utilize amazing cool embed, is part of waifu bot and leomotors/cminusminus",
     url: "github.com/Leomotors/music-bot",
   },
   {
@@ -151,7 +166,7 @@ export const projects = [
 ];
 
 export const interests = [
-  "Areas: RGB, Anime, Dual Monitor Setup, Windows Insider",
+  "Areas: RGB, Mechanical Keyboard, Anime, Dual Monitor Desk Setup, Windows Insider",
   "Typing: 80-100 WPM (English) 40-50 WPM (Thai)",
   "Games: Any game that can be played with friends happily",
 ];
